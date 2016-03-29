@@ -1,0 +1,12 @@
+{
+  "name": "nobodyrandom/african-students-association",
+  "description": "Website for Western African Students Association",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Harrison Chow",
+      "email": "harrisonchowhk@yahoo.com"
+    }
+  ]
+}
