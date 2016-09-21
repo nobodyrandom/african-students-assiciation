@@ -1226,9 +1226,15 @@ figcaption .links a {
     z-index: 10;
 }
 
+.center-cropped {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 350px !important;
+}
+
 .overlay-hover img {
-    width: 100% !important;
-    height: 240px !important;
+    /*width: 100% !important;*/
+     height: 240px !important;
 }
 
 .overlay-effect ul.social {
