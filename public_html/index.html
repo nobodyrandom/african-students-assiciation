@@ -1477,7 +1477,7 @@
      /* ----------------------------------------------------------- */
     function loadedGmap() {
         // create a LatLng object containing the coordinate for the center of the map
-        var latlng = new google.maps.LatLng(-33.86455, 151.209);
+        var latlng = new google.maps.LatLng(43.0095971, -81.2759223);
 
         // Find your styles here :) https://snazzymaps.com/explore
         var styleArr = [{
@@ -1525,7 +1525,13 @@
 
         // add Marker
         var marker1 = new google.maps.Marker({
-            position: latlng, map: map
+            lat: 23.709921,
+            lng: 90.407143,
+            title: 'Western University',
+            infoWindow: {
+                content: '<p> University of Western Ontario</p>'
+            },
+            icon: "images/map1.png"
         });
 
         // add listener for a click on the pin
