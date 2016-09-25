@@ -1784,6 +1784,12 @@ figcaption .links a {
     width: 100%;
 }
 
+#google_map {
+    height: 450px;
+    z-index: 1;
+    width: 100%;
+}
+
 /* Contact Form
 ==============================================*/
 #contact {
